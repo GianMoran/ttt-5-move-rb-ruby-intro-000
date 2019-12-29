@@ -3,3 +3,8 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+def move(board, index, player = "X")
+
+board[index] = player
+board
+end
